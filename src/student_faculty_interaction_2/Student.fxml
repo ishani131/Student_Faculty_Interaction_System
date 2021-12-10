@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="495.0" prefWidth="765.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="student_faculty_interaction_2.StudentController">
+   <children>
+      <AnchorPane prefHeight="106.0" prefWidth="765.0" style="-fx-background-color: #2980B9;">
+         <children>
+            <Label layoutX="312.0" layoutY="36.0" text="STUDENT" textFill="WHITE">
+               <font>
+                  <Font name="Modern No. 20" size="31.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="164.0" layoutY="202.0" text="Ask Doubt">
+         <font>
+            <Font name="Modern No. 20" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="164.0" layoutY="293.0" text="See Previous Doubts">
+         <font>
+            <Font name="Modern No. 20" size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnask" layoutX="383.0" layoutY="201.0" mnemonicParsing="false" onAction="#askdoubt" style="-fx-background-color: #2980B9;" text="ASK" textFill="#fffcfc">
+         <font>
+            <Font name="Modern No. 20" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnprev" layoutX="383.0" layoutY="289.0" mnemonicParsing="false" onAction="#prevdoubts" style="-fx-background-color: #2980B9;" text="Previous Doubts" textFill="WHITE">
+         <font>
+            <Font name="Modern No. 20" size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

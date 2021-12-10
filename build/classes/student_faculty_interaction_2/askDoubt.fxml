@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="488.0" prefWidth="717.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="student_faculty_interaction_2.AskDoubtController">
+   <children>
+      <AnchorPane prefHeight="99.0" prefWidth="717.0" style="-fx-background-color: #2980B9;">
+         <children>
+            <Label layoutX="272.0" layoutY="32.0" prefHeight="34.0" prefWidth="181.0" text="ASK DOUBT" textFill="WHITE">
+               <font>
+                  <Font name="Modern No. 20" size="31.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="93.0" layoutY="144.0" text="Username">
+         <font>
+            <Font name="Modern No. 20" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="93.0" layoutY="198.0" text="Subject">
+         <font>
+            <Font name="Modern No. 20" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="93.0" layoutY="262.0" text="Doubt">
+         <font>
+            <Font name="Modern No. 20" size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="uname" layoutX="284.0" layoutY="143.0" promptText="Username" />
+      <TextField fx:id="sub" layoutX="284.0" layoutY="209.0" promptText="Subject" />
+      <TextArea fx:id="doubt" layoutX="284.0" layoutY="262.0" prefHeight="142.0" prefWidth="316.0" promptText="Ask your Doubt" />
+      <Button fx:id="btnsubmit" layoutX="94.0" layoutY="421.0" mnemonicParsing="false" onAction="#submit" style="-fx-background-color: #2980B9;" text="Submit" textFill="WHITE">
+         <font>
+            <Font name="Modern No. 20" size="21.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

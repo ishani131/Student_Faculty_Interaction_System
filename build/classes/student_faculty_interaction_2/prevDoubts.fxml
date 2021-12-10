@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="591.0" prefWidth="840.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="student_faculty_interaction_2.PrevDoubtsController">
+   <children>
+      <AnchorPane prefHeight="102.0" prefWidth="840.0" style="-fx-background-color: #2980B9;">
+         <children>
+            <Label layoutX="278.0" layoutY="34.0" text="PREVIOUS DOUBTS" textFill="WHITE">
+               <font>
+                  <Font name="Modern No. 20" size="31.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <TableView fx:id="AnswerTable" layoutX="22.0" layoutY="119.0" prefHeight="456.0" prefWidth="802.0">
+        <columns>
+          <TableColumn fx:id="unameCol" prefWidth="95.20001220703125" text="USERNAME" />
+          <TableColumn fx:id="subCol" prefWidth="101.5999755859375" text="SUBJECT" />
+            <TableColumn fx:id="queryCol" prefWidth="230.39996337890625" text="QUERY" />
+            <TableColumn fx:id="answerCol" prefWidth="295.20001220703125" text="ANSWER" />
+            <TableColumn fx:id="statusCol" prefWidth="83.199951171875" text="STATUS" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
